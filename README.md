@@ -13,7 +13,7 @@ The TFRecord format will allow you to use the Tensorflow Object Detection API in
 1. Clone the repo
 2. [Optional] Create a virtual environment to keep dependencies isolated.
 3. Run `pip install -r requirements.txt`
-4. Run python wider_to_tfrecord.py --help to see options.
+4. To see options run: python wider_to_tfrecord.py --help
 
 ## About testing images set
 
