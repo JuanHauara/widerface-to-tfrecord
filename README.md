@@ -13,12 +13,7 @@ The TFRecord format will allow you to use the Tensorflow Object Detection API in
 1. Clone the repo
 2. [Optional] Create a virtual environment to keep dependencies isolated.
 3. Run `pip install -r requirements.txt`
-4. Configure `config.py` file with your appropiate paths.
-   * You should have downloaded from [here](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) the dataset and the annotations' folder
-   * If you don't want a set to be converted then leave the field in `None`. For example, if *test* is not going to be converted you should leave `TEST_WIDER_PATH` in `None`.
-5. Run `python wider_to_tfrecord.py`
-6. When done, `tfrecord` files should be in the output folder you specified in `config.py`.
-
+4. Run python wider_to_tfrecord.py --help to see options.
 
 ## About testing images set
 
